@@ -11,7 +11,7 @@ epsilon = 1.0  # Start with a higher exploration rate
 epsilon_decay = 0.999  # Decay rate for epsilon
 epsilon_min = 0.01  # Minimum value for epsilon
 num_episodes = 10000  # Number of episodes to train
-skip_episodes = 2000  # Number of episodes to skip when 's' is pressed
+skip_episodes = 500  # Number of episodes to skip when 's' is pressed
 
 # Create the environment
 env = gym.make('CartPole-v1', render_mode='human')
